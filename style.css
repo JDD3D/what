@@ -1,0 +1,13 @@
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'comic sans ms', cursive;
+    border-radius: 0.8rem;
+    filter: drop-shadow(8px 21px 10px #000000);
+}
+
+body {
+    background-color: rgb(143, 143, 143);
+}
