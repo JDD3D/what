@@ -11,6 +11,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("Seconds").innerHTML = "Hi my love <3";
+    document.getElementById("Seconds").innerHTML = "";
   }
 }, 1); 

@@ -23,6 +23,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("Countdown").innerHTML = "Hi my love <3";
+    document.getElementById("Countdown").innerHTML = ":(";
   }
 }, 10);
