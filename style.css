@@ -15,6 +15,17 @@ header {
 
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
 .MS {
     font-family: 'comic sans ms', cursive;
     font-size: 3rem;
@@ -29,4 +40,14 @@ body {
   font-family: "Delius", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.cheese {
+    display: flex;
+  align-items: right;
+  justify-content: right;
+  filter: drop-shadow(0px 10px 8px #000000);
+  text-align: right;
+  min-height: 1vh;
+  max-height: 10vh;
 }
